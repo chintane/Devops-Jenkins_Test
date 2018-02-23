@@ -15,43 +15,7 @@
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>vaadin-prereleases</id>
-            <name>Vaadin Pre-releases</name>
-            <url>https://maven.vaadin.com/vaadin-prereleases</url>
-        </repository>
-        <!-- Essential Vaadin artifacts are in maven central, but maven.vaadin.com 
-            contains a huge set of additional libraries. See vaadin.com/directory -->
-       <repository>
-            <id>vaadin-addons</id>
-            <url>http://maven.vaadin.com/vaadin-addons</url>
-        </repository>
-
-        <repository>
-            <id>vaadin-snapshots</id>
-            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>vaadin-snapshots</id>
-            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
+  
 
 
     <dependencies>
@@ -495,12 +459,12 @@
     <repository>
       <id>chinta-releases</id>
       <name>chinta-releases</name>
-      <url>http://ec2-18-222-45-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-release/</url>
+      <url>http://ec2-18-221-11-180.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-release/</url>
     </repository>
     <snapshotRepository>
       <id>chinta-snapshots</id>
       <name>chinta-snapshots</name>
-      <url>http://ec2-18-222-45-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-snapshot/</url>
+      <url>http://ec2-18-221-11-180.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
