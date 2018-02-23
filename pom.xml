@@ -495,12 +495,12 @@
     <repository>
       <id>chinta-releases</id>
       <name>chinta-releases</name>
-      <url>http://ec2-18-222-45-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-releases/</url>
+      <url>http://ec2-18-222-45-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-release/</url>
     </repository>
     <snapshotRepository>
       <id>chinta-snapshots</id>
       <name>chinta-snapshots</name>
-      <url>http://ec2-18-222-45-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-snapshots/</url>
+      <url>http://ec2-18-222-45-10.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/chinta-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
